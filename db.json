@@ -1,33 +1,38 @@
 {
-  "projects": [
-    {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
-    }
+  "items": [
+    { "id": "1", "name": "Elder Wand", "category": "Wands", "price": 199.99, "stock": 2, "description": "One of the Deathly Hallows, incredibly powerful.", "image": "https://placehold.co/300x400?text=Elder+Wand", "featured": true },
+    { "id": "2", "name": "Holly Wand", "category": "Wands", "price": 45.99, "stock": 18, "description": "Holly wand with phoenix feather core.", "image": "https://placehold.co/300x400?text=Holly+Wand", "featured": false },
+    { "id": "3", "name": "Yew Wand", "category": "Wands", "price": 59.99, "stock": 12, "description": "Yew wood wand favored by dark wizards.", "image": "https://placehold.co/300x400?text=Yew+Wand", "featured": false },
+    { "id": "4", "name": "Oak Wand", "category": "Wands", "price": 39.99, "stock": 20, "description": "Strong oak wand with dragon heartstring core.", "image": "https://placehold.co/300x400?text=Oak+Wand", "featured": false },
+    { "id": "5", "name": "Willow Wand", "category": "Wands", "price": 42.5, "stock": 16, "description": "Flexible willow wand suited for healing magic.", "image": "https://placehold.co/300x400?text=Willow+Wand", "featured": false },
+
+    { "id": "6", "name": "Polyjuice Potion", "category": "Potions", "price": 24.5, "stock": 0, "description": "Allows the drinker to take the form of another person.", "image": "https://placehold.co/300x400?text=Polyjuice+Potion", "featured": true },
+    { "id": "7", "name": "Felix Felicis", "category": "Potions", "price": 79.99, "stock": 5, "description": "Liquid luck potion.", "image": "https://placehold.co/300x400?text=Felix+Felicis", "featured": true },
+    { "id": "8", "name": "Amortentia", "category": "Potions", "price": 34.99, "stock": 10, "description": "The most powerful love potion.", "image": "https://placehold.co/300x400?text=Amortentia", "featured": false },
+    { "id": "9", "name": "Veritaserum", "category": "Potions", "price": 54.99, "stock": 6, "description": "Forces the drinker to tell the truth.", "image": "https://placehold.co/300x400?text=Veritaserum", "featured": false },
+    { "id": "10", "name": "Pepperup Potion", "category": "Potions", "price": 12.99, "stock": 25, "description": "Cures the common cold.", "image": "https://placehold.co/300x400?text=Pepperup+Potion", "featured": false },
+
+    { "id": "11", "name": "Hogwarts: A History", "category": "Books", "price": 18.0, "stock": 22, "description": "History of Hogwarts School of Witchcraft and Wizardry.", "image": "https://placehold.co/300x400?text=Hogwarts+Book", "featured": true },
+    { "id": "12", "name": "Advanced Potion-Making", "category": "Books", "price": 22.5, "stock": 15, "description": "Advanced potion textbook.", "image": "https://placehold.co/300x400?text=Advanced+Potions", "featured": false },
+    { "id": "13", "name": "Fantastic Beasts and Where to Find Them", "category": "Books", "price": 20.0, "stock": 18, "description": "Guide to magical creatures.", "image": "https://placehold.co/300x400?text=Fantastic+Beasts", "featured": true },
+    { "id": "14", "name": "The Standard Book of Spells", "category": "Books", "price": 16.99, "stock": 30, "description": "Essential spellbook for students.", "image": "https://placehold.co/300x400?text=Book+of+Spells", "featured": false },
+    { "id": "15", "name": "Magical Drafts and Potions", "category": "Books", "price": 19.99, "stock": 14, "description": "Beginner guide to potion making.", "image": "https://placehold.co/300x400?text=Drafts+Potions", "featured": false },
+
+    { "id": "16", "name": "Gryffindor Robe", "category": "Robes", "price": 89.99, "stock": 8, "description": "Official Gryffindor student robe.", "image": "https://placehold.co/300x400?text=Gryffindor+Robe", "featured": true },
+    { "id": "17", "name": "Slytherin Robe", "category": "Robes", "price": 89.99, "stock": 6, "description": "Official Slytherin student robe.", "image": "https://placehold.co/300x400?text=Slytherin+Robe", "featured": false },
+    { "id": "18", "name": "Ravenclaw Robe", "category": "Robes", "price": 89.99, "stock": 7, "description": "Official Ravenclaw student robe.", "image": "https://placehold.co/300x400?text=Ravenclaw+Robe", "featured": false },
+    { "id": "19", "name": "Hufflepuff Robe", "category": "Robes", "price": 89.99, "stock": 9, "description": "Official Hufflepuff student robe.", "image": "https://placehold.co/300x400?text=Hufflepuff+Robe", "featured": false },
+    { "id": "20", "name": "Wizard Cloak", "category": "Robes", "price": 109.99, "stock": 5, "description": "Elegant cloak for formal wizarding events.", "image": "https://placehold.co/300x400?text=Wizard+Cloak", "featured": true }
+
   ]
+
+  "categories": [
+    { "id": "1", "name": "Wands" },
+    { "id": "2", "name": "Potions" },
+    { "id": "3", "name": "Books" },
+    { "id": "4", "name": "Robes" }
+  ],
+
+  "orders": [],
+  "users": []
 }
