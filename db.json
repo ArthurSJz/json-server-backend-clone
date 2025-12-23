@@ -1,26 +1,6 @@
 {
   "items": [
     {
-      "id": "1",
-      "name": "Elder Wand",
-      "category": "Wands",
-      "price": 199.99,
-      "stock": 2,
-      "description": "One of the Deathly Hallows, incredibly powerful.",
-      "image": "/assets/products/elder-wand.jpg",
-      "featured": true
-    },
-    {
-      "id": "2",
-      "name": "Holly Wand",
-      "category": "Wands",
-      "price": 45.99,
-      "stock": 18,
-      "description": "Holly wand with phoenix feather core.",
-      "image": "/assets/products/holly-wand.jpg",
-      "featured": false
-    },
-    {
       "id": "3",
       "name": "Yew Wand",
       "category": "Wands",
@@ -31,47 +11,6 @@
       "featured": false
     },
     {
-      "id": "4",
-      "name": "Oak Wand",
-      "category": "Wands",
-      "price": 39.99,
-      "stock": 20,
-      "description": "Strong oak wand with dragon heartstring core.",
-      "image": "/assets/products/oak-wand.jpg",
-      "featured": false
-    },
-    {
-      "id": "5",
-      "name": "Willow Wand",
-      "category": "Wands",
-      "price": 42.5,
-      "stock": 16,
-      "description": "Flexible willow wand suited for healing magic.",
-      "image": "/assets/products/willow-wand.jpg",
-      "featured": false
-    },
-
-    {
-      "id": "6",
-      "name": "Polyjuice Potion",
-      "category": "Potions",
-      "price": 24.5,
-      "stock": 0,
-      "description": "Allows the drinker to take the form of another person.",
-      "image": "/assets/products/polyjuice-potion.jpg",
-      "featured": true
-    },
-    {
-      "id": "7",
-      "name": "Felix Felicis",
-      "category": "Potions",
-      "price": 79.99,
-      "stock": 5,
-      "description": "Liquid luck potion.",
-      "image": "/assets/products/felix-felicis.jpg",
-      "featured": true
-    },
-    {
       "id": "8",
       "name": "Amortentia",
       "category": "Potions",
@@ -80,57 +19,6 @@
       "description": "The most powerful love potion.",
       "image": "/assets/products/amortentia.jpg",
       "featured": false
-    },
-    {
-      "id": "9",
-      "name": "Veritaserum",
-      "category": "Potions",
-      "price": 54.99,
-      "stock": 6,
-      "description": "Forces the drinker to tell the truth.",
-      "image": "/assets/products/veritaserum.jpg",
-      "featured": false
-    },
-    {
-      "id": "10",
-      "name": "Pepperup Potion",
-      "category": "Potions",
-      "price": 12.99,
-      "stock": 25,
-      "description": "Cures the common cold.",
-      "image": "/assets/products/pepperup-potion.jpg",
-      "featured": false
-    },
-
-    {
-      "id": "11",
-      "name": "Hogwarts: A History",
-      "category": "Books",
-      "price": 18.0,
-      "stock": 22,
-      "description": "History of Hogwarts School of Witchcraft and Wizardry.",
-      "image": "/assets/products/book-hogwarts-history.jpg",
-      "featured": true
-    },
-    {
-      "id": "12",
-      "name": "Advanced Potion-Making",
-      "category": "Books",
-      "price": 22.5,
-      "stock": 15,
-      "description": "Advanced potion textbook.",
-      "image": "/assets/products/book-advanced -potion-making.jpg",
-      "featured": false
-    },
-    {
-      "id": "13",
-      "name": "Fantastic Beasts and Where to Find Them",
-      "category": "Books",
-      "price": 20.0,
-      "stock": 18,
-      "description": "Guide to magical creatures.",
-      "image": "/assets/products/book-fantastic-beasts-and-where-to-find-them.jpg",
-      "featured": true
     },
     {
       "id": "14",
@@ -152,7 +40,6 @@
       "image": "/assets/products/book-magical-drafts-and-potions.jpg",
       "featured": false
     },
-
     {
       "id": "16",
       "name": "Gryffindor Robe",
@@ -202,16 +89,47 @@
       "description": "Elegant cloak for formal wizarding events.",
       "image": "/assets/products/wizard-cloak.jpg",
       "featured": true
+    },
+    {
+      "id": "UfEeswC"
+    },
+    {
+      "name": "testet",
+      "category": "est",
+      "price": "12",
+      "stock": "02",
+      "description": "12sada",
+      "image": "import { useState } from \"react\";  function AddItem({ handleAddItem }) {   const [name, setName] = useState(\"\");   const [category, setCategory] = useState(\"\");   const [price, setPrice] = useState(0);   const [stock, setStock] = useState(0);   const [description, setDescription] = useState(\"\");   const [image, setImage] = useState(\"\");    return (     <div>       <h1>Add a new magic item:</h1>       <form         onSubmit={(e) =>           handleAddItem(e, { name, category, price, stock, description, image })         }       >         <label>           Name:           <input             type=\"text\"             value={name}             onChange={(event) => setName(event.target.value)}           />         </label>         <label>           Category:           <input             type=\"text\"             value={category}             onChange={(event) => setCategory(event.target.value)}           />         </label>         <label>           Price:           <input             type=\"number\"             value={price}             onChange={(event) => setPrice(event.target.value)}           />         </label>         <label>           Stock:           <input             type=\"number\"             value={stock}             onChange={(event) => setStock(event.target.value)}           />         </label>         <label>           Description:           <input             type=\"text\"             value={description}             onChange={(event) => setDescription(event.target.value)}           />         </label>         <label>           Image:           <input             type=\"text\"             value={image}             onChange={(event) => setImage(event.target.value)}           />         </label>          <button className=\"btn-add\">Add Item</button>       </form>     </div>   ); } export default AddItem;",
+      "id": "osGORbW"
+    },
+    {
+      "name": "natal",
+      "category": "natal 3",
+      "price": "23",
+      "stock": "4",
+      "description": "alhgoq eu",
+      "image": "https://plus.unsplash.com/premium_photo-1766340004705-87d635bccd23?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": "uJ0pNTN"
     }
   ],
-
   "categories": [
-    { "id": "1", "name": "Wands" },
-    { "id": "2", "name": "Potions" },
-    { "id": "3", "name": "Books" },
-    { "id": "4", "name": "Robes" }
+    {
+      "id": "1",
+      "name": "Wands"
+    },
+    {
+      "id": "2",
+      "name": "Potions"
+    },
+    {
+      "id": "3",
+      "name": "Books"
+    },
+    {
+      "id": "4",
+      "name": "Robes"
+    }
   ],
-
   "orders": [],
   "users": []
 }
