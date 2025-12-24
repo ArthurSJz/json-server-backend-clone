@@ -11,14 +11,13 @@
       "featured": false
     },
     {
-      "id": "8",
-      "name": "Amortentia",
+      "name": "Amortentia Potion",
       "category": "Potions",
       "price": 34.99,
       "stock": 10,
       "description": "The most powerful love potion.",
       "image": "/assets/products/amortentia.jpg",
-      "featured": false
+      "id": "8"
     },
     {
       "id": "14",
