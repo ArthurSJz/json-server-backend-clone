@@ -206,10 +206,26 @@
   ],
 
   "categories": [
-    { "id": "1", "name": "Wands" },
-    { "id": "2", "name": "Potions" },
-    { "id": "3", "name": "Books" },
-    { "id": "4", "name": "Robes" }
+    {
+      "id": "1",
+      "name": "Wands",
+      "icon": "🪄"
+    },
+    {
+      "id": "2",
+      "name": "Potions",
+      "icon": "🧪"
+    },
+    {
+      "id": "3",
+      "name": "Books",
+      "icon": "📖"
+    },
+    {
+      "id": "4",
+      "name": "Robes",
+      "icon": "🧥"
+    }
   ],
 
   "orders": [],

@@ -20,16 +20,6 @@
       "id": "8"
     },
     {
-      "id": "14",
-      "name": "The Standard Book of Spells",
-      "category": "Books",
-      "price": 16.99,
-      "stock": 30,
-      "description": "Essential spellbook for students.",
-      "image": "/assets/products/book-the-standard-book-of-spells.jpg",
-      "featured": false
-    },
-    {
       "id": "15",
       "name": "Magical Drafts and Potions",
       "category": "Books",
@@ -109,24 +99,37 @@
       "description": "alhgoq eu",
       "image": "https://plus.unsplash.com/premium_photo-1766340004705-87d635bccd23?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "id": "uJ0pNTN"
+    },
+    {
+      "name": "wand",
+      "category": "wand",
+      "price": 12,
+      "stock": 1,
+      "description": "best wand ever",
+      "image": "/assets/products/placeholder.png",
+      "id": "108cdJw"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "Wands"
+      "name": "Wands",
+      "icon": "🪄"
     },
     {
       "id": "2",
-      "name": "Potions"
+      "name": "Potions",
+      "icon": "🧪"
     },
     {
       "id": "3",
-      "name": "Books"
+      "name": "Books",
+      "icon": "📖"
     },
     {
       "id": "4",
-      "name": "Robes"
+      "name": "Robes",
+      "icon": "🧥"
     }
   ],
   "orders": [],
