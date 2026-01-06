@@ -202,6 +202,36 @@
       "description": "Elegant cloak for formal wizarding events.",
       "image": "/assets/products/wizard-cloak.jpg",
       "featured": true
+    },
+    {
+      "id": "21",
+      "name": "Bertie Bott's Every Flavour Beans",
+      "category": "Sweets",
+      "price": 5.99,
+      "stock": 30,
+      "description": "Try your luck with every flavor imaginable.",
+      "image": "/assets/products/flavor-bean.jpg",
+      "featured": false
+    },
+    {
+      "id": "22",
+      "name": "Chocolate Frogs",
+      "category": "Sweets",
+      "price": 4.99,
+      "stock": 25,
+      "description": "Magical chocolate frogs with collectible cards.",
+      "image": "/assets/products/chocolate-frog.jpg",
+      "featured": false
+    },
+    {
+      "id": "23",
+      "name": "Fizzing Whizbees",
+      "category": "Sweets",
+      "price": 6.99,
+      "stock": 20,
+      "description": "Sweet and popping candies that fizz in your mouth.",
+      "image": "/assets/products/bombons.jpg",
+      "featured": false
     }
   ],
 
@@ -225,6 +255,11 @@
       "id": "4",
       "name": "Robes",
       "icon": "🧥"
+    },
+    {
+      "id": "5",
+      "name": "Sweets",
+      "icon": "🍬"
     }
   ],
 
