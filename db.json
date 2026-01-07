@@ -21,24 +21,13 @@
       "featured": false
     },
     {
-      "id": "3",
-      "name": "Yew Wand",
-      "category": "Wands",
-      "price": 59.99,
-      "stock": 12,
-      "description": "Yew wood wand favored by dark wizards.",
-      "image": "/assets/products/yew-wand.jpg",
-      "featured": false
-    },
-    {
-      "id": "4",
       "name": "Oak Wand",
       "category": "Wands",
       "price": 39.99,
       "stock": 20,
       "description": "Strong oak wand with dragon heartstring core.",
       "image": "/assets/products/oak-wand.jpg",
-      "featured": false
+      "id": "4"
     },
     {
       "id": "5",
@@ -50,7 +39,6 @@
       "image": "/assets/products/willow-wand.jpg",
       "featured": false
     },
-
     {
       "id": "6",
       "name": "Polyjuice Potion",
@@ -101,12 +89,11 @@
       "image": "/assets/products/pepperup-potion.jpg",
       "featured": false
     },
-
     {
       "id": "11",
       "name": "Hogwarts: A History",
       "category": "Books",
-      "price": 18.0,
+      "price": 18,
       "stock": 22,
       "description": "History of Hogwarts School of Witchcraft and Wizardry.",
       "image": "/assets/products/book-hogwarts-history.jpg",
@@ -126,7 +113,7 @@
       "id": "13",
       "name": "Fantastic Beasts and Where to Find Them",
       "category": "Books",
-      "price": 20.0,
+      "price": 20,
       "stock": 18,
       "description": "Guide to magical creatures.",
       "image": "/assets/products/book-fantastic-beasts-and-where-to-find-them.jpg",
@@ -152,7 +139,6 @@
       "image": "/assets/products/book-magical-drafts-and-potions.jpg",
       "featured": false
     },
-
     {
       "id": "16",
       "name": "Gryffindor Robe",
@@ -224,17 +210,42 @@
       "featured": false
     },
     {
-      "id": "23",
       "name": "Fizzing Whizbees",
       "category": "Sweets",
       "price": 6.99,
       "stock": 20,
       "description": "Sweet and popping candies that fizz in your mouth.",
       "image": "/assets/products/bombons.jpg",
-      "featured": false
+      "id": "23"
+    },
+    {
+      "name": "test",
+      "category": "Potions",
+      "price": 12,
+      "stock": 1,
+      "description": "teste",
+      "image": {},
+      "id": "Q-QLMKW"
+    },
+    {
+      "name": "test",
+      "category": "Robes",
+      "price": 123,
+      "stock": 2,
+      "description": "sffsd",
+      "image": "https://res.cloudinary.com/dxigeridm/image/upload/v1767781477/jzeluoxuwmwvchivmeqf.jpg",
+      "id": "xN8ge52"
+    },
+    {
+      "name": "varinha",
+      "category": "Wands",
+      "price": 32,
+      "stock": 2,
+      "description": "varinha",
+      "image": "https://res.cloudinary.com/dxigeridm/image/upload/v1767781666/fnvcstsiip2nfg9h8q64.webp",
+      "id": "-VRbiEi"
     }
   ],
-
   "categories": [
     {
       "id": "1",
@@ -262,7 +273,6 @@
       "icon": "🍬"
     }
   ],
-
   "orders": [],
   "users": []
 }
